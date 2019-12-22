@@ -4,7 +4,13 @@ This project was created to learn Rust basics, as well as common use cases from 
 
 ## Practices
 
-*
+* http - TBD
+* error - TBD
+* struct - TBD
+* io - TBD
+* list - TBD
+* num - TBD
+* string - TBD
 
 ## Experiments (practice + dart-beers)
 
@@ -25,11 +31,20 @@ This project was created to learn Rust basics, as well as common use cases from 
 
 ## What I've Learned
 
-TBD
+* Rust is a very mature language with production grade tooling and top notch documentation.
+  * Maintainers offer incredibly detailed documentation for the language, compiler, code styling, and package manager. Documentation for even more obscure use cases such as web assembly is also available.
+* Rust compiles into binary code, so it can be shipped and ran just about anywhere.
+* The language is incredibly fast and boasts performance benchmarks that give Go a run for it's money. In optimal use cases, it can perform as fast as C/C++ for certain operations.
+  * Rust has no runtime or garbage collection.
+* Ownership model and memory/thread safety help thwart away many classes of bugs at compile time.
+* Integrated tooling makes Rust a highly productive language.
+* The language has many use cases ranging from networking to embedded systems.
+* Rust is being used by many large tech companies including Firefox, Dropbox, Cloudflare, and Yelp.
 
 ## Resources
 
-TBD
+* [The Rust Programming Language (Book)](https://doc.rust-lang.org/book/)
+* [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
 
 ---
 
