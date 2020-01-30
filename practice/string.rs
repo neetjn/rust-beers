@@ -9,8 +9,11 @@ fn main() {
   }
   // mutable string
   let mut s = "";
-  s += 'a';
-  println!(s);
+  // concat string with another string
+  // concat string with a character
+  // regular concatenation
+  s = concat!(s, 'a');
+  println!("{}", s);
   // raw string with quotes
   let quotes = r#"Then I screamed, "Hello World""#;
   println!("{}", quotes);
@@ -21,4 +24,8 @@ fn main() {
   a
   test
   ";
+  // reverse string
+  let p1: &str = "hello world";
+  let p2: String = p1.chars().rev().collect();
+  println!("{}", p2);
 }
